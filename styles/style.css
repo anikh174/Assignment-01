@@ -23,6 +23,7 @@
     border-radius: 4px;
 }
 
+/* header style */
 #navbar .nav-content{
     display: flex;
     gap:346px;
@@ -41,4 +42,68 @@
     font-weight: 500;
     line-height: 150%;
     color: #000000;
+}
+
+/* main style */
+#hero-section .hero-content{
+    background-image: url("../assets/hero-bg.png");
+    text-align: center;
+    padding: 115px 120px 179px;
+
+}
+
+#hero-section .hero-content .hero-sub-title{
+    display: inline-flex;
+    gap: 1.5px;
+    align-items: center;
+    color: #469165;
+    background-color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 100px;
+    margin: 0 auto 16px;
+}
+
+#hero-section .hero-content .hero-title{
+    font-size: 72px;
+    font-weight: bold;
+    color: white;
+    line-height: 84px;
+    margin-bottom: 16px;
+}
+
+#hero-section .hero-content span{
+    color: #30B868;
+}
+
+#hero-section .hero-content .hero-text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 32px;
+}
+
+#hero-section .hero-content .hero-button .hero-btn-1{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    padding: 16px;
+    color: white;
+    background-color: #469165;
+    border: none;
+    border-radius: 4px;
+    margin-right: 16px;
+}
+
+#hero-section .hero-content .hero-button .hero-btn-2{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    padding: 16px;
+    color: white;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 4px;
 }
