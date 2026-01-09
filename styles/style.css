@@ -51,6 +51,14 @@
   color: #627382;
 }
 
+#brain-check{
+    width: 100%;
+    max-width: 16px;
+
+    height: 100%;
+    max-height: 16px;
+}
+
 /* header style */
 #navbar .nav-content {
   display: flex;
@@ -167,4 +175,49 @@
 
 #notes .notes-container .notes-title {
   text-align: center;
+}
+
+/* second brain section */
+#second-brain .second-brain-content{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin: 120px;
+}
+
+#second-brain .second-brain-content img{
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+}
+
+#second-brain .second-brain-content h4{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #469165;
+    margin-bottom: 16px;
+}
+
+#second-brain .second-brain-content h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 16px;
+}
+
+#second-brain .second-brain-content .second-brain-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 40px;
+    color: #627382;
+}
+
+#second-brain .second-brain-content .second-brain-tips p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #001931;
+    margin-bottom: 16px;
 }
