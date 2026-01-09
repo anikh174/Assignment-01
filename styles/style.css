@@ -221,3 +221,36 @@
     color: #001931;
     margin-bottom: 16px;
 }
+
+/* ready to think section */
+#ready-to-think .r-to-t-content{
+    background-color: #F7F6F2;
+    margin: 2px 120px 120px;
+    padding: 80px 40px;
+    text-align: center;
+}
+
+#ready-to-think .r-to-t-content h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+#ready-to-think .r-to-t-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+
+#ready-to-think .r-to-t-content .rightarrow{
+    width: 15px;
+    height: 13px;
+}
+
+#ready-to-think .r-to-t-content button{
+    margin-bottom: 16px;
+}
