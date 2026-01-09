@@ -1,11 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* fonts css */
-.open-sans{
+.open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
@@ -13,97 +13,158 @@
 /* shared style */
 /* button */
 
-#btn{
-    font-size: 16px;
-    font-weight: 600;
-    color: white;
-    background-color: #469165;
-    padding: 12px 10px;
-    border: none;
-    border-radius: 4px;
+#btn {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #469165;
+  padding: 12px 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+#card {
+  padding: 69px 24px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 8px 0 #0000000f;
+}
+
+#card img {
+  background-color: #f95555;
+  padding: 15px;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  margin-bottom: 16px;
+}
+
+#card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+#card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #627382;
 }
 
 /* header style */
-#navbar .nav-content{
-    display: flex;
-    gap:346px;
-    margin: 16px 120px;
-    align-items: center;
-
+#navbar .nav-content {
+  display: flex;
+  gap: 346px;
+  margin: 16px 120px;
+  align-items: center;
 }
 
-#navbar .nav-content .nav-menu{
-    display: flex;
-    gap: 32px;
+#navbar .nav-content .nav-menu {
+  display: flex;
+  gap: 32px;
 }
 
-#navbar .nav-content .nav-menu p{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 150%;
-    color: #000000;
+#navbar .nav-content .nav-menu p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  color: #000000;
 }
 
 /* main style */
-#hero-section .hero-content{
-    background-image: url("../assets/hero-bg.png");
-    text-align: center;
-    padding: 115px 120px 179px;
-
+/* hero style */
+#hero-section .hero-content {
+  background-image: url("../assets/hero-bg.png");
+  text-align: center;
+  padding: 115px 120px 179px;
 }
 
-#hero-section .hero-content .hero-sub-title{
-    display: inline-flex;
-    gap: 1.5px;
-    align-items: center;
-    color: #469165;
-    background-color: white;
-    font-size: 16px;
-    padding: 8px 12px;
-    border: none;
-    border-radius: 100px;
-    margin: 0 auto 16px;
+#hero-section .hero-content .hero-sub-title {
+  display: inline-flex;
+  gap: 1.5px;
+  align-items: center;
+  color: #469165;
+  background-color: white;
+  font-size: 16px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 100px;
+  margin: 0 auto 16px;
 }
 
-#hero-section .hero-content .hero-title{
-    font-size: 72px;
-    font-weight: bold;
-    color: white;
-    line-height: 84px;
-    margin-bottom: 16px;
+#hero-section .hero-content .hero-title {
+  font-size: 72px;
+  font-weight: bold;
+  color: white;
+  line-height: 84px;
+  margin-bottom: 16px;
 }
 
-#hero-section .hero-content span{
-    color: #30B868;
+#hero-section .hero-content span {
+  color: #30b868;
 }
 
-#hero-section .hero-content .hero-text{
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24px;
-    color: white;
-    margin-bottom: 32px;
+#hero-section .hero-content .hero-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: white;
+  margin-bottom: 32px;
 }
 
-#hero-section .hero-content .hero-button .hero-btn-1{
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 100%;
-    padding: 16px;
-    color: white;
-    background-color: #469165;
-    border: none;
-    border-radius: 4px;
-    margin-right: 16px;
+#hero-section .hero-content .hero-button .hero-btn-1 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 100%;
+  padding: 16px;
+  color: white;
+  background-color: #469165;
+  border: none;
+  border-radius: 4px;
+  margin-right: 16px;
 }
 
-#hero-section .hero-content .hero-button .hero-btn-2{
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 100%;
-    padding: 16px;
-    color: white;
-    border: 1px solid white;
-    background: transparent;
-    border-radius: 4px;
+#hero-section .hero-content .hero-button .hero-btn-1 .rightarrow {
+  width: 15px;
+  height: 13px;
+}
+
+#hero-section .hero-content .hero-button .hero-btn-2 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 100%;
+  padding: 16px;
+  color: white;
+  border: 1px solid white;
+  background: transparent;
+  border-radius: 4px;
+}
+
+/* notes section */
+#notes .notes-container {
+  margin: 48px 120px;
+}
+
+#notes .notes-container h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+#notes .notes-container p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 44px;
+}
+
+#notes .notes-container .card-content {
+  display: flex;
+  gap: 24px;
+}
+
+#notes .notes-container .notes-title {
+  text-align: center;
 }
