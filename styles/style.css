@@ -23,11 +23,23 @@
   border-radius: 4px;
 }
 
+#btn:hover{
+  background-color: #3b7f57;
+  box-shadow: 0 6px 12px black;
+  cursor: pointer;
+}
+
 #card {
   padding: 69px 24px;
   text-align: center;
   border-radius: 8px;
   box-shadow: 0 0 8px 0 #0000000f;
+}
+
+#card:hover{
+  background-color: #30b868;
+  color: white;
+  cursor: pointer;
 }
 
 #card img {
@@ -65,6 +77,10 @@
   padding: 4px;
 }
 
+#icons:hover{
+  background-color: #30b868;
+}
+
 /* header style */
 #navbar .nav-content {
   display: flex;
@@ -83,6 +99,11 @@
   font-weight: 500;
   line-height: 150%;
   color: #000000;
+}
+
+#navbar .nav-content .nav-menu p:hover{
+  color: #30b868;
+  cursor: pointer;
 }
 
 /* main style */
@@ -138,6 +159,13 @@
   margin-right: 16px;
 }
 
+#hero-section .hero-content .hero-button .hero-btn-1:hover{
+  background: transparent;
+  border: 1px solid white;
+  box-shadow: 0 3px 12px white;
+  cursor: pointer;
+}
+
 #hero-section .hero-content .hero-button .hero-btn-1 .rightarrow {
   width: 15px;
   height: 13px;
@@ -152,6 +180,12 @@
   border: 1px solid white;
   background: transparent;
   border-radius: 4px;
+}
+
+#hero-section .hero-content .hero-button .hero-btn-2:hover{
+  background-color: #3b7f57;
+  box-shadow: 0 3px 12px white;
+  cursor: pointer;
 }
 
 /* notes section */
